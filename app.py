@@ -6,7 +6,7 @@ import tensorflow as tf
 from keras.models import load_model
 
 #Load the pretrained model
-scaler=joblib.load('Spotify_scaler.pkl')
+scaler=joblib.load('wine_scaler.pkl')
 model=load_model('wine_model.keras')
 
 st.title('Wine Type Prediction')
