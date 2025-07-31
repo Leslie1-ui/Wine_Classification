@@ -2,7 +2,7 @@ streamlit
 joblib
 pandas
 numpy 
-tensorflow =2.20.0
+tensorflow 
 scikit-learn
 seaborn
 matplotlib
